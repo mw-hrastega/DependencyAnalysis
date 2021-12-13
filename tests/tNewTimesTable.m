@@ -8,7 +8,7 @@ classdef tNewTimesTable < matlab.unittest.TestCase
     end
     
     methods(TestClassSetup)
-        function setupGameObject(testCase)
+        function setupGameObject(testCase )
             testCase.gameObject = timesTableGame;
         end
     end
